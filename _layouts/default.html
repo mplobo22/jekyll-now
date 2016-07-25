@@ -106,37 +106,20 @@
     </header>
 
     <!-- Page Content -->
-        <div id="main" role="main" class="container">
+    <div class="container">
+
+        <div class="row">
+
+            <!-- Blog Entries Column -->
+            <div class="col-md-8">
       {{ content }}
     </div>
-
-    <div class="wrapper-footer">
-      <div class="container">
-        <footer class="footer">
-          {% include svg-icons.html %}
-        </footer>
-      </div>
-    </div>
-
-    {% include analytics.html %}
+        </div>
+            </div>
+  
 
                                                        
-                              
-
-                <hr>
-
-                <!-- Pager -->
-                <ul class="pager">
-                    <li class="previous">
-                        <a href="#">&larr; Older</a>
-                    </li>
-                    <li class="next">
-                        <a href="#">Newer &rarr;</a>
-                    </li>
-                </ul>
-
-            </div>
-
+                      
             <!-- Blog Sidebar Widgets Column -->
             <div class="col-md-4">
 
@@ -206,15 +189,15 @@
             <div class="row">
                 <div class="col-lg-12">
                     <p>Copyright &copy; Your Website 2014</p>
+                    {% include svg-icons.html %}
                 </div>
                 <!-- /.col-lg-12 -->
             </div>
             <!-- /.row -->
         </footer>
-
     </div>
     <!-- /.container -->
-
+    {% include analytics.html %}
 
     <!-- Script to Activate the Carousel -->
     <script>
