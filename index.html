@@ -1,5 +1,6 @@
 ---
 layout: default
+published: true
 ---
 
 <div class="posts">
@@ -15,4 +16,8 @@ layout: default
       <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
     </article>
   {% endfor %}
+  
+    {% for post in site.posts %}
+  	{{ post.title }}
+    {% endfor %}
 </div>
