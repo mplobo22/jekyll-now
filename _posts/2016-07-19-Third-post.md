@@ -2,8 +2,8 @@
 published: true
 layout: post
 type: genre
-origin: American
-year: 1812
+origin: Dutch
+year: 1600
 ---
 ## A New Post
 
