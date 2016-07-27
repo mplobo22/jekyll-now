@@ -17,28 +17,9 @@
                   
                   {% for link in site.data.navigation.main %}
                   <li>
-                  <a href="#">Paintings</a>
+                  <a href="{{ link.url }}">{{ link.title }}</a>
                   </li>
                   {% endfor %}
-                  
-                  <li>
-                        <a href="paintings.html">Paintings</a>
-                    </li>
-                  <li>
-                        <a href="{{ site.baseurl }}/">Photographs</a>
-                    </li>
-                  <li>
-                        <a href="{{ site.baseurl }}/">Drawings</a>
-                    </li>
-                  <li>
-                        <a href="{{ site.baseurl }}/">Sculpture</a>
-                    </li>
-                    <li>
-                        <a href="{{ site.baseurl }}/">About</a>
-                    </li>
-                    <li>
-                        <a href="{{ site.baseurl }}/">Contact!!!</a>
-                    </li>
                   
                 </ul>
             </div>
