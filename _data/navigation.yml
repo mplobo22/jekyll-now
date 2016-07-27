@@ -1,0 +1,18 @@
+main:
+  - title: "Paintings"
+    url: /paintings
+    
+  - title: "Photographs"
+    url: #
+    
+  - title: "Drawings"
+    url: #
+    
+  - title: "Sculpture/Objects"
+    url: #
+        
+  - title: "About"
+    url: #
+            
+  - title: "Contact"
+    url: #
