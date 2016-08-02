@@ -8,13 +8,12 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" />
-                </a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
-                  
+                  <a class="navbar-brand" href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" />
+                </a>
                   {% for link in site.data.navigation.main %}
                   <li>
                   <a href="{{ link.url }}">{{ link.title }}</a>
@@ -27,4 +26,3 @@
         </div>
         <!-- /.container -->
     </nav>
-
