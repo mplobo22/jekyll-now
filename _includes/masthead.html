@@ -14,8 +14,6 @@
                 <ul class="nav navbar-nav">
                   {% for link in site.data.navigation.main %}
                   <li>
-                    <a class="navbar-brand" href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" />
-                </a>
                   <a href="{{ link.url }}">{{ link.title }}</a>
                   </li>
                   {% endfor %}
