@@ -3,8 +3,8 @@ name: Lena Herzog
 published: true
 ---
 ---
-image_path: "/images/got3.jpg"
-name: "Bran Stark"
-house: "Stark"
-house_icon: "/images/house_icons/house_stark.png"
+Name: "Lena Herzog (born:Elena Pisetski)"
+Dates: "1970-"
+Medium: "Photographer"
+Website: "lenaherzog.com"
 ---
