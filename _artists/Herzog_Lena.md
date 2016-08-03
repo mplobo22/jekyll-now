@@ -3,8 +3,9 @@ name: Lena Herzog
 published: true
 ---
 ---
-Name: "Lena Herzog (born:Elena Pisetski)"
-Dates: "1970-"
-Medium: "Photographer"
-Website: "lenaherzog.com"
+name: "Lena Herzog (born:Elena Pisetski)"
+dates: "1970-"
+medium: "Photographer"
+website: "lenaherzog.com"
+bio: 
 ---
