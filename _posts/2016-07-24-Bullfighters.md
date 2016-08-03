@@ -1,9 +1,9 @@
 ---
 published: true
 layout: post
-type: painting
+type: photograph
 origin: American
-year: 1886
+year: 1995
 ---
 ## Lena Herzog
 
