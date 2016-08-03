@@ -3,19 +3,17 @@ main:
     url: /paintings
     
   - title: "Photographs"
-    url: #
+    url: /photographs
     
   - title: "Drawings"
-    url: #
+    url: /drawings
     
   - title: "Sculpture"
-    url: #
+    url: /scultpure
         
   - title: "Objects"
-    url: #
+    url: /objects
     
   - title: "About"
-    url: #
-            
-  - title: "Contact"
-    url: #
+    url: /about
+   
