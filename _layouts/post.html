@@ -14,5 +14,12 @@ published: true
     Written on {{ page.date | date: "%m/%d/%Y" }}
   </div>
 
+  <div class="arist-info">
+ 	{% for artist in site.artists %}
+  	<h2>{{ artist.name }}</h2>
+  	<p>{{ artist.bio }}</p>
+ 	{% endfor %}
+  </div>
+  
   {% include disqus.html %}
 </article>
