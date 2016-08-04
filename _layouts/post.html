@@ -13,13 +13,6 @@ published: true
   <div class="date">
     Written on {{ page.date | date: "%m/%d/%Y" }}
   </div>
-
-  <div class="artist-info">
- 	{% for artist in site.artists %}
-  	<h2>{{ artist.name }}</h2>
-  	<p>{{ artist.medium }}</p>
- 	{% endfor %}
-  </div>
   
   {% include disqus.html %}
 </article>
