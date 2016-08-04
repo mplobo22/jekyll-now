@@ -16,3 +16,5 @@ Lena Herzog's iconic images of bullfighters display bla bla bla bla bla
   	<p>{{ artist.medium }}</p>
  	{% endfor %}
   </div>
+  
+  MONKEY
