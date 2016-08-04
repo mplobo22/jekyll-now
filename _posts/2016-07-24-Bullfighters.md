@@ -10,3 +10,9 @@ artist:
 ## Lena Herzog
 Lena Herzog's iconic images of bullfighters display bla bla bla bla bla
 
+<div class="artist-info">
+ 	{% for artist in site.artists %}
+  	<h2>{{ artist.name }}</h2>
+  	<p>{{ artist.medium }}</p>
+ 	{% endfor %}
+  </div>
