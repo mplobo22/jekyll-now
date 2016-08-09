@@ -9,7 +9,7 @@ main:
     url: /drawings
     
   - title: "Sculpture"
-    url: /scultpure
+    url: /sculpture
         
   - title: "Objects"
     url: /objects
