@@ -22,16 +22,3 @@ images:
 In one of Kiyonaga's most iconic images, revelers enjoying the summer weather drink sake and gaze out on the water. We see one woman from behind leaning on the railing and striking a distinctive pose.
 
 <hr>
-
-
-<div class="artist-info">
-{% for artist in site.artists %}
-<a href="{{ site.baseurl }}{{ site.artists.url }}"><h2>{{ artist.name }}</h2></a>
-<p>{{ artist.dates }}</p>
-<p><span>MOVEMENT:</span>{{ artist.movement }}</p>
-<p><span>WEBSITE:</span>{{ artist.website }}</p>
-<p><span>BIO:</span>{{ artist.bio }}</p>
-<hr>
-{% endfor %}
-
-  </div>
