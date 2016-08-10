@@ -8,11 +8,21 @@ published: true
 
   <div class="entry">
     {{ content }}
+
+    {% assign thisPostArtist = page.artist_id %}
+    <div class="artist-info">
+    <h2>{{ site.data.artists[thisPostArtist].name }}</h2>
+    <p>{{ site.data.artists[thisPostArtist].dates }}</p>
+    <p><span>MOVEMENT:</span>{{ site.data.artists[thisPostArtist].movement }}</p>
+    <p><span>WEBSITE:</span>{{ site.data.artists[thisPostArtist].website }}</p>
+    <p><span>BIO:</span>{{ site.data.artists[thisPostArtist].bio }}</p>
+    <hr>
+    </div>
   </div>
 
   <div class="date">
     Written on {{ page.date | date: "%m/%d/%Y" }}
   </div>
-  
+
   {% include disqus.html %}
 </article>

@@ -4,10 +4,9 @@ layout: post
 type: photograph
 origin: American
 year: 1995
-artists:
-  - url: /artists/Herzog_Lena.md
 images:
   - url: /images/LH_Bullfight3.jpg
+artist_id: herzog_lena
 ---
 
 <div class ="main-image">
@@ -24,15 +23,3 @@ This photo, shot using a Hasselblad x-pan engages us through it's classical comp
 In this interview by Robert Harris from <a href= "http://french-italian.stanford.edu/opinions/shows/eo10156.mp3">"Entitled Opinions"</a> Herzog talks about her process, why she shoots on film, and about her other projects and her career in general.
 
 <hr>
-
-<div class="artist-info">
-{% for artist in site.artists %}
-<a href="{{ site.baseurl }}{{ site.artists.url }}"><h2>{{ artist.name }}</h2></a>
-<p>{{ artist.dates }}</p>
-<p><span>MOVEMENT:</span>{{ artist.movement }}</p>
-<p><span>WEBSITE:</span>{{ artist.website }}</p>
-<p><span>BIO:</span>{{ artist.bio }}</p>
-<hr>
-{% endfor %}
-
-  </div>
