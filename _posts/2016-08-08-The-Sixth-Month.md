@@ -4,8 +4,7 @@ layout: post
 type: drawing
 origin: Japanese
 year: About 1783
-artists:
-  - url: /artists/Kiyonaga_Torii.md
+artist_id: Kiyonaga_Torii
 images:
   - url: https://data.ukiyo-e.org/mfa/images/sc160945.jpg
 ---
