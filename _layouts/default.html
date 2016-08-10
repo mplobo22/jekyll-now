@@ -35,16 +35,17 @@
         </ol>
 
         <!-- Wrapper for Slides -->
+        {% for post in site.posts offset:0 limit:3 %}
         <div class="carousel-inner">
             <div class="item active">
                 <!-- Set the first background image using inline CSS below. -->
-                {% for post in site.posts offset:0 limit:3 %}
                 <div class="fill" style="background-image:url('{{ post.image }}');"></div>
                 <div class="carousel-caption">
-                    <h2>{{ post.title }}</h2>{% endfor %}
+                    <h2>{{ post.title }}</h2>
                 </div>
             </div>
         </div>
+        {% endfor %}
         
         <!-- Controls -->
         <a class="left carousel-control" href="#myCarousel" data-slide="prev">
