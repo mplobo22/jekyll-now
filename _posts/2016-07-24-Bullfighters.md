@@ -11,7 +11,7 @@ artist_id: herzog_lena
 
 <div class ="main-image">
 {% for image in page.images %}
-<img src="{{ site.baseurl }}{{ image.url }}" class="">
+<img src="{{ site.baseurl }}{{ images.url }}" class="">
 <br>
 <hr>
 <br>
