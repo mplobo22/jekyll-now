@@ -39,7 +39,18 @@
 
         <!-- Wrapper for Slides -->
         <div class="carousel-inner">
-         {% for post in site.posts %}
+         {% for post in site.posts limit:1 %}
+            <div class="item active">
+                <!-- Set the first background image using inline CSS below. -->
+                <div class="fill" style="background-image:url('{{ post.images.url }}');"></div>
+                <div class="carousel-caption">
+                    <h2>{{ post.title }}</h2>
+                    
+                </div>
+            </div>
+        {% endfor %}
+        
+           {% for post in site.posts offset:1 limit:2 %}
             <div class="item">
                 <!-- Set the first background image using inline CSS below. -->
                 <div class="fill" style="background-image:url('{{ post.images.url }}');"></div>
@@ -49,6 +60,8 @@
                 </div>
             </div>
         {% endfor %}
+        
+        
         </div>
         
         <!-- Controls -->
