@@ -22,4 +22,6 @@ This photo, shot using a Hasselblad x-pan engages us through it's classical comp
 
 In this interview by Robert Harris from <a href= "http://french-italian.stanford.edu/opinions/shows/eo10156.mp3">"Entitled Opinions"</a> Herzog talks about her process, why she shoots on film, and about her other projects and her career in general.
 
+test
+
 <hr>
