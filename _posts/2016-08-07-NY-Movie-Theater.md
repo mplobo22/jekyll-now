@@ -9,6 +9,8 @@ images:
   url: http://www.edwardhopper.net/images/paintings/newyork-movie.jpg
 ---
 
+test
+
 <div class ="main-image">
 {% for image in page.images %}
 <img src="{{ site.baseurl }}{{ image.url }}" class="">
