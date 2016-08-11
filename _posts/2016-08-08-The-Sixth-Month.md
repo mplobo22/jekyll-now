@@ -6,12 +6,12 @@ origin: Japanese
 year: About 1783
 artist_id: Kiyonaga_Torii
 images:
-  url: https://data.ukiyo-e.org/mfa/images/sc160945.jpg
+  - url: https://data.ukiyo-e.org/mfa/images/sc160945.jpg
 ---
 
 <div class ="main-image">
-{% for image in page.images %}
-<img src="{{ site.baseurl }}{{ image.url }}" class="">
+{% for image3 in page.images %}
+<img src="{{ site.baseurl }}{{ image3.url }}" class="">
 <br>
 <hr>
 <br>
