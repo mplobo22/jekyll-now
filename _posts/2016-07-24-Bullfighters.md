@@ -5,13 +5,13 @@ type: photograph
 origin: American
 year: 1995
 images:
-  url: /images/LH_Bullfight3.jpg
+  - url: /images/LH_Bullfight3.jpg
 artist_id: herzog_lena
 ---
 
 <div class ="main-image">
-{% for image1 in page.images %}
-<img src="{{ site.baseurl }}{{ image1.url }}" class="">
+{% for image in page.images %}
+<img src="{{ site.baseurl }}{{ image.url }}" class="">
 <br>
 <hr>
 <br>
