@@ -6,12 +6,12 @@ origin: American
 year: 1939
 artist_id: hopper_edward
 images:
-  url: http://www.edwardhopper.net/images/paintings/newyork-movie.jpg
+  - url: http://www.edwardhopper.net/images/paintings/newyork-movie.jpg
 ---
 
 <div class ="main-image">
-{% for image2 in page.images %}
-<img src="{{ site.baseurl }}{{ image2.url }}" class="">
+{% for image in page.images %}
+<img src="{{ site.baseurl }}{{ image.url }}" class="">
 <br>
 <hr>
 <br>
