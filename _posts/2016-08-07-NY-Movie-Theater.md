@@ -4,9 +4,9 @@ layout: post
 type: painting
 origin: American
 year: 1939
-artist_id: hopper_edward
 images:
   - url: http://www.edwardhopper.net/images/paintings/newyork-movie.jpg
+artist_id: hopper_edward
 ---
 
 <div class ="main-image">
