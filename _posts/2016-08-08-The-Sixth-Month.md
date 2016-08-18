@@ -7,6 +7,7 @@ year: About 1783
 artist_id: Kiyonaga_Torii
 images:
   - url: https://data.ukiyo-e.org/mfa/images/sc160945.jpg
+preview_image: https://data.ukiyo-e.org/mfa/images/sc160945.jpg
 ---
 
 <div class ="main-image">
