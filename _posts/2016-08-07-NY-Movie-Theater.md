@@ -6,6 +6,7 @@ origin: American
 year: 1939
 images:
   - url: http://www.edwardhopper.net/images/paintings/newyork-movie.jpg
+preview_image: <img src="http://www.edwardhopper.net/images/paintings/newyork-movie.jpg">
 artist_id: hopper_edward
 ---
 
